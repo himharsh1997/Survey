@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TMSurvActivity" >
+
+    <TextView
+        android:id="@+id/TextMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student  Tech skills survey"
+        android:textSize="30px"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="-7px"
+        android:layout_marginLeft="30px"
+         />
+<EditText
+    android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint=" write name"
+    />
+    <LinearLayout
+        android:id="@+id/Lay11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:orientation="vertical" >
+
+     <Button
+         android:id="@+id/button1"
+         android:text="Question 1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="#af0000"
+         />
+         <Button
+         android:id="@+id/button2"
+         android:text="Question 2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="#af0000"
+         />
+         <Button
+         android:id="@+id/button3"
+         android:text="Question 3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="#af0000"
+         />
+         <Button
+         android:id="@+id/button4"
+         android:text="Question 4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="#af0000"
+         />
+         <Button
+         android:id="@+id/button5"
+         android:text="Question 5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="#af0000"
+         />
+    </LinearLayout>
+</LinearLayout>
